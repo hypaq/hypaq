@@ -1,6 +1,9 @@
 <div align="center">
-  HyPAQ<img src="hypaq.png" alt="HyPAQ" width="100"/>
+  <img src="hypaq.png" alt="HyPAQ" width="100"/>
+  <br/>
+  <strong>HYPAQ</strong>
 </div>
+
 
 ---
 
