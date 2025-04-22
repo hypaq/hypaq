@@ -1,16 +1,8 @@
 # HyPAQ - Hypergraph Partitioning for Static and Adaptive Quantum Circuits
-[![PyPI downloads](https://img.shields.io/pypi/dm/your-package-name?label=PyPI%20downloads)](https://pypi.org/project/your-package-name/)
-[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue)](https://stackoverflow.com/questions/tagged/your-project-tag)
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FQCE57702.2023.00055-blue)](https://doi.org/10.1109/QCE57702.2023.00055)
-
-[![Contribute](https://img.shields.io/badge/Contribute-Good%20First%20Issue-brightgreen)](https://github.com/yourusername/yourprojectname/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-
-# 🚀 Project Name
-
-![GitHub License](https://img.shields.io/github/license/yourusername/projectname)
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/projectname)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/projectname)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/yourusername/projectname)
+[![PyPI downloads](https://img.shields.io/pypi/dm/your-package-name?label=PyPI%20downloads)](https://pypi.org/project/hypaq/)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue)](https://stackoverflow.com/questions/tagged/hypaq)
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FQCE57702.2023.00055-blue)](https://doi.org/10.48550/arXiv.2504.09318)
+[![Contribute](https://img.shields.io/badge/Contribute-Good%20First%20Issue-brightgreen)](https://github.com/hypaq/hypaq/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## 📝 Description
 
