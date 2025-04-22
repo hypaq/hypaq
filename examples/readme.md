@@ -1,1 +1,69 @@
+## 🔍 Hypergraph-Based Representation for Quantum Circuit Cutting
+
+This section introduces key concepts in **quantum circuit cutting** using **hypergraph representations**, a central methodology in the **HyPAQ framework**. Below, we walk through several illustrative figures demonstrating how quantum circuits are transformed into graph and hypergraph models to enable efficient partitioning across distributed quantum computing systems.
+
+---
+
+### 🖼️ [Figure 1: Graph vs. Hypergraph Representations](https://github.com/hypaq/hypaq/blob/main/images/fig1.png)
+
+![Graph vs. Hypergraph](https://github.com/hypaq/hypaq/blob/main/images/fig1.png)
+
+This figure compares **graphs** and **hypergraphs** for modeling quantum circuits:
+- **Graph (left)**: Represents **binary relationships** between qubits (e.g., a CX gate between `q2` and `q5`).
+- **Hypergraph (middle)**: Captures **multi-qubit gates** (e.g., a CCX gate represented by `e3`), where **hyperedges** connect more than two qubits.
+- **Bipartite Graph (right)**: Translates the hypergraph into a bipartite structure, making the relationships between qubits and gates explicit for computational purposes.
+
+Hypergraphs are essential for accurately representing **non-binary interactions** in quantum circuits.
+
+---
+
+### 🖼️ [Figure 2: From Quantum Circuit to Directed Acyclic Graph (DAG)](https://github.com/hypaq/hypaq/blob/main/images/fig2.png)
+
+![Quantum Circuit to DAG](https://github.com/hypaq/hypaq/blob/main/images/fig2.png)
+
+This figure shows how a **quantum circuit** (left) can be converted into a **Directed Acyclic Graph (DAG)** (right):
+- **Circuit**: Composed of gates and qubits (`q0` to `q5`).
+- **DAG**: Represents **dependencies** between operations, with nodes as gates and edges showing the **execution order**. Weights indicate **latency** or **communication costs**.
+
+DAGs help visualize the **flow of computation** and assist in **scheduling** and **partitioning** for distributed execution.
+
+---
+
+### 🖼️ [Figure 3: Binary Gates and Graph-Based Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig3.png)
+
+![Binary Gates Graph Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig3.png)
+
+In this example:
+- The **circuit (left)** consists of **binary gates** only.
+- The **graph (right)** models these pairwise interactions between qubits.
+
+For **binary-only circuits**, graph-based partitioning suffices. However, for **multi-qubit gates**, a **hypergraph** becomes necessary.
+
+---
+
+### 🖼️ [Figure 4: Multi-Qubit Gates and Hypergraph-Based Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig4.png)
+
+![Multi-Qubit Gates Hypergraph](https://github.com/hypaq/hypaq/blob/main/images/fig4.png)
+
+Here:
+- The **quantum circuit (left)** includes **multi-qubit gates** like **CCX** (Toffoli gates), such as `e4` and `e5`.
+- The **hypergraph (right)** captures these **multi-qubit dependencies**, allowing **hyperedges** to connect more than two qubits.
+
+This representation supports **quantum circuit cutting**, enabling **efficient partitioning** across **multiple QPUs**.
+
+---
+
+### 🖼️ [Figure 5: Hypergraph Structure for Circuit Representation](https://github.com/hypaq/hypaq/blob/main/images/fig5.png)
+
+![Hypergraph Structure Circuit Representation](https://github.com/hypaq/hypaq/blob/main/images/fig5.png)
+
+This figure details the **hypergraph structure** used to represent complex quantum circuits:
+- **Nodes** represent **qubits**, while **hyperedges** represent **quantum gates**, including multi-qubit gates.
+- The **data structure** (right) shows how nodes and hyperedges are encoded, with additional attributes from quantum gates (e.g., qubit identifiers, gate types).
+
+This **flexible hypergraph model** captures various patterns and complexities from input circuits, forming the foundation for **partitioning** and **distributing circuits** in **multi-QPU systems**.
+
+---
+
+> 💡 **The hypergraph-based approach in HyPAQ enables accurate modeling and cutting of complex quantum circuits**, supporting efficient distribution and execution on **noisy intermediate-scale quantum (NISQ)** devices.
 
