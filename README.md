@@ -12,5 +12,5 @@
 
 **HyPAQ**, an acronym for Hypergraphic Partitioning Approach for Quantum circuits, is a powerful research-driven initiative aimed at addressing key scalability and efficiency challenges in distributed quantum computing. At its core, HyPAQ focuses on the development of advanced partitioning strategies for both static and adaptive quantum circuits by leveraging hypergraph-based representations. These representations enable a more precise modeling of quantum gate dependencies and classical control operations, which are particularly complex in adaptive circuits. The main goal of HyPAQ is to optimize the distribution of quantum computations across multiple Quantum Processing Units (QPUs), reducing inter-QPU communication costs and enhancing overall computational performance. By introducing standardized benchmarks and heuristics tailored for multi-QPU systems, HyPAQ provides a foundational framework for evaluating and improving partitioning techniques—ultimately facilitating more scalable, efficient, and flexible quantum algorithm execution in the era of noisy intermediate-scale quantum (NISQ) devices.
 
----
+#
 updated: April 2025.
