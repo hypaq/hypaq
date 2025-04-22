@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="hypaq.png" alt="Benchmark Results" width="100"/>
-  HyPAQ
+  HyPAQ<img src="hypaq.png" alt="HyPAQ" width="100"/>
 </div>
 
 ---
