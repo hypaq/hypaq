@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyPAQ_Adaptive_Quantum_Circuit_Generator_v1", "HyPAQ_Adaptive_Quantum_Circuit_Generator_v1\HyPAQ_Adaptive_Quantum_Circuit_Generator_v1.csproj", "{0BF6FBF2-321C-4701-A582-3A2AAB22949E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF6FBF2-321C-4701-A582-3A2AAB22949E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF6FBF2-321C-4701-A582-3A2AAB22949E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF6FBF2-321C-4701-A582-3A2AAB22949E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF6FBF2-321C-4701-A582-3A2AAB22949E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6E31ACF-3DC3-4DD9-8876-D7AB1B546DE8}
+	EndGlobalSection
+EndGlobal
