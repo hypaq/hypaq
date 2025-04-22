@@ -15,13 +15,10 @@
 ## 📚 Table of Contents
 
 - [Documentation](#-documentation)
-- [Installation](#-installation)
+- [Source code](#-source-code)
 - [Usage Examples](#-usage-examples)
 - [Publications](#-publications)
 - [License](#-license)
-- [References](#-references)
-- [About Us](#-about-us)
-- [Contributing](#-contributing)
 - [Contact](#-contact)
 
 ## 📖 Documentation
@@ -31,17 +28,16 @@ scalable multi-QPU system. The results demonstrate a significant reduction in co
 
 Keywords: distributed quantum computing; circuit partitioning; cutting of static and adaptive circuits; hypergraph partitioning of circuits. 
 
-## 💾 Installation
+## 💾 Source-code
 
-- [Steps for installation]
+- [List of mains scripts]
   
-### Prerequisites
+### Usage Examples
 
 - [List dependencies: Python, Node.js, Docker, etc.]
 
-### Steps
+### Publications
 
-```bash
-git clone https://github.com/yourusername/projectname.git
-cd projectname
-# Add installation steps here (e.g., pip install -r requirements.txt)
+### License
+
+### Contact
