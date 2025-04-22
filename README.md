@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="hypaq.png" alt="HyPAQ" width="200"/>
+  <img src="hypaq.png" alt="HyPAQ" width="100"/>
   <br/>
   <strong>HyPAQ</strong>
 </div>
