@@ -1,4 +1,4 @@
-## ⚙️ HyPAQ Framework Overview
+## ⚙️ Source-code for HyPAQ Framework
 
 The **HyPAQ** (Hypergraphic Partitioning Approach for Quantum circuits) framework provides a comprehensive set of tools to enable **quantum circuit cutting**—the decomposition and distribution of large quantum circuits across multiple **Quantum Processing Units (QPUs)** in distributed quantum computing environments. By leveraging **hypergraph-based representations**, HyPAQ addresses the challenges of partitioning both **static** and **adaptive** quantum circuits, optimizing their execution on **noisy intermediate-scale quantum (NISQ)** devices.
 
