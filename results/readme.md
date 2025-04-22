@@ -9,7 +9,7 @@ The following sections illustrate the performance of HyPAQ in terms of **entangl
 ## 🖼️ Figure 1: Reduction Percentage in Ebits vs Circuit Width
 
 <p align="center">
-  <img src="https://github.com/hypaq/hypaq/blob/main/images/result1.png" alt="Reduction Percentage vs Circuit Width" width="80%">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/result2.png" alt="Reduction Percentage vs Circuit Width" width="80%">
 </p>
 
 This figure shows the **percentage reduction in entanglement bits (ebits)** as a function of **circuit width (n)**, achieved through the **HyPAQ** cutting strategy. Ebits represent the quantum communication overhead across circuit partitions.
@@ -23,7 +23,7 @@ This figure shows the **percentage reduction in entanglement bits (ebits)** as a
 ## 🖼️ Figure 2: Impact of Different Optimization Levels on Ebit Reduction
 
 <p align="center">
-  <img src="https://github.com/hypaq/hypaq/blob/main/images/result2.png" alt="Optimization Levels Comparison" width="80%">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/result3.png" alt="Optimization Levels Comparison" width="80%">
 </p>
 
 This figure compares **ebit reduction percentages** for **different compiler optimization levels** applied to the circuits before partitioning:
@@ -42,7 +42,7 @@ This figure compares **ebit reduction percentages** for **different compiler opt
 ## 🖼️ Figure 3: Partitioning Time Performance (KL vs FM)
 
 <p align="center">
-  <img src="https://github.com/hypaq/hypaq/blob/main/images/result3.png" alt="Partitioning Time Comparison (KL vs FM)" width="80%">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/result1.png" alt="Partitioning Time Comparison (KL vs FM)" width="80%">
 </p>
 
 This figure illustrates the **time spent** applying two different partitioning heuristics used within **HyPAQ**:
