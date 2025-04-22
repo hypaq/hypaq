@@ -28,7 +28,7 @@ The following publications highlight the research and advancements developed as 
 3. **CAMBIUCCI, Waldemir; SILVEIRA, Regina Melo; RUGGIERO, Wilson Vicente**  
    *Arquitetura para sistema de computação quântica distribuída multi-QPU com particionamento de circuitos.*  
    In: Workshop de Redes Quânticas (WQU-Nets), 2024, Niterói/RJ, Anais SBC, pp. 7-12.  
-   <a href="https://doi.org/10.5753/wqunets.2024.2857" target="_blank">DOI: 10.5753/wqunets.2024.2857</a>
+   <a href="https://doi.org/10.5753/wqunets.2024.2857" target="_blank">DOI: 10.5753/wqunets.2024.2857</a> 
 
 4. **W. Cambiucci, R. M. Silveira, W. V. Ruggiero**  
    *Hypergraphic Partitioning for Spatial and Temporal Quantum Circuit Cutting.*  
