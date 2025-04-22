@@ -21,7 +21,9 @@ Hypergraphs are essential for accurately representing **non-binary interactions*
 
 ### 🖼️ [Figure 2: From Quantum Circuit to Directed Acyclic Graph (DAG)](https://github.com/hypaq/hypaq/blob/main/images/fig2.png)
 
-![Quantum Circuit to DAG](https://github.com/hypaq/hypaq/blob/main/images/fig2.png)
+<p align="center">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/fig2.png" alt="Graph vs. Hypergraph" width="70%">
+</p>
 
 This figure shows how a **quantum circuit** (left) can be converted into a **Directed Acyclic Graph (DAG)** (right):
 - **Circuit**: Composed of gates and qubits (`q0` to `q5`).
@@ -33,7 +35,9 @@ DAGs help visualize the **flow of computation** and assist in **scheduling** and
 
 ### 🖼️ [Figure 3: Binary Gates and Graph-Based Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig3.png)
 
-![Binary Gates Graph Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig3.png)
+<p align="center">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/fig3.png" alt="Graph vs. Hypergraph" width="70%">
+</p>
 
 In this example:
 - The **circuit (left)** consists of **binary gates** only.
@@ -45,7 +49,9 @@ For **binary-only circuits**, graph-based partitioning suffices. However, for **
 
 ### 🖼️ [Figure 4: Multi-Qubit Gates and Hypergraph-Based Partitioning](https://github.com/hypaq/hypaq/blob/main/images/fig4.png)
 
-![Multi-Qubit Gates Hypergraph](https://github.com/hypaq/hypaq/blob/main/images/fig4.png)
+<p align="center">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/fig4.png" alt="Graph vs. Hypergraph" width="70%">
+</p>
 
 Here:
 - The **quantum circuit (left)** includes **multi-qubit gates** like **CCX** (Toffoli gates), such as `e4` and `e5`.
@@ -57,7 +63,9 @@ This representation supports **quantum circuit cutting**, enabling **efficient p
 
 ### 🖼️ [Figure 5: Hypergraph Structure for Circuit Representation](https://github.com/hypaq/hypaq/blob/main/images/fig5.png)
 
-![Hypergraph Structure Circuit Representation](https://github.com/hypaq/hypaq/blob/main/images/fig5.png)
+<p align="center">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/fig5.png" alt="Graph vs. Hypergraph" width="70%">
+</p>
 
 This figure details the **hypergraph structure** used to represent complex quantum circuits:
 - **Nodes** represent **qubits**, while **hyperedges** represent **quantum gates**, including multi-qubit gates.
