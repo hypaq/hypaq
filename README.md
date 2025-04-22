@@ -106,5 +106,5 @@ By enabling practical **quantum circuit cutting**, HyPAQ contributes to the adva
 
 ---
 
-> 💡 **For more technical details, see the [Documentation](#) and explore [Examples](#) of HyPAQ in action.**
+> 💡 **For more technical details, see the [Documentation](#) and explore [Examples](#https://github.com/hypaq/hypaq/tree/main/examples) of HyPAQ in action.**
 updated: April 2025.
