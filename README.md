@@ -12,32 +12,9 @@
 
 **HyPAQ**, an acronym for Hypergraphic Partitioning Approach for Quantum circuits, is a powerful research-driven initiative aimed at addressing key scalability and efficiency challenges in distributed quantum computing. At its core, HyPAQ focuses on the development of advanced partitioning strategies for both static and adaptive quantum circuits by leveraging hypergraph-based representations. These representations enable a more precise modeling of quantum gate dependencies and classical control operations, which are particularly complex in adaptive circuits. The main goal of HyPAQ is to optimize the distribution of quantum computations across multiple Quantum Processing Units (QPUs), reducing inter-QPU communication costs and enhancing overall computational performance. By introducing standardized benchmarks and heuristics tailored for multi-QPU systems, HyPAQ provides a foundational framework for evaluating and improving partitioning techniques—ultimately facilitating more scalable, efficient, and flexible quantum algorithm execution in the era of noisy intermediate-scale quantum (NISQ) devices.
 
-## 📚 Table of Contents
-
-- [Documentation](#-documentation)
-- [Source code](#-source-code)
-- [Usage Examples](#-usage-examples)
-- [Publications](#-publications)
-- [License](#-license)
-- [Contact](#-contact)
-
-## 📖 Documentation
+## 📖 Abstract
 
 With the advancement of quantum computing, making algorithms scalable to multiple Quantum Processing Units (QPUs) becomes essential to overcome the limitations of current noisy intermediate-scale quantum (NISQ) devices. However, challenges remain, such as the high communication cost between QPUs and the need for more efficient architectures for circuit cutting, both static and adaptive. This work focuses on reducing that communication cost, thereby promoting greater scalability and improved performance in circuit partitioning across multi-QPU systems. The main issue addressed is the optimization of circuit partitioning and distribution, aiming to minimize inter-QPU communication and maximize computational efficiency. For static quantum circuits, we propose strategies based on hypergraph representations, using hypergraph partitioning heuristics. Initially, we introduce a weighted hypergraph partitioning approach that segments input circuits into smaller subcircuits, reducing inter-QPU operations and accelerating the partitioning process. This approach covers both balanced and unbalanced scenarios, resulting in lower communication costs for complex circuits. Subsequently, we apply the same heuristic to a reduced hypergraph representation, achieving cuts with even lower communication overhead for larger circuits, outperforming traditional bipartite methods. For adaptive circuits, in which the sequence of operations depends on intermediate measurements, we propose an assisted segmentation model that accounts for the runtime dynamics of execution, challenges that are absent in static circuits. Furthermore, we present a quantum resource management architecture designed to coordinate the partitioning of both static and adaptive circuits, addressing the practical requirements of a 
 scalable multi-QPU system. The results demonstrate a significant reduction in communication cost between partitions, as well as improvements in partitioning performance for complex quantum circuits. This research is expected to contribute to the development of more efficient distributed solutions, supporting quantum software engineers and practitioners during the current era of noisy devices in distributed quantum computing environments.
 
-Keywords: distributed quantum computing; circuit partitioning; cutting of static and adaptive circuits; hypergraph partitioning of circuits. 
-
-## 💾 Source-code
-
-- [List of mains scripts]
-  
-### Usage Examples
-
-- [List dependencies: Python, Node.js, Docker, etc.]
-
-### Publications
-
-### License
-
-### Contact
+## Keywords: distributed quantum computing; circuit partitioning; cutting of static and adaptive circuits; hypergraph partitioning of circuits. 
