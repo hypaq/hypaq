@@ -1,4 +1,4 @@
-## 🔍 Hypergraph-Based Representation for Quantum Circuit Cutting
+## 🔍 Examples of Hypergraph-Based Representation for Quantum Circuit Cutting
 
 This section introduces key concepts in **quantum circuit cutting** using **hypergraph representations**, a central methodology in the **HyPAQ framework**. Below, we walk through several illustrative figures demonstrating how quantum circuits are transformed into graph and hypergraph models to enable efficient partitioning across distributed quantum computing systems.
 
