@@ -1,4 +1,4 @@
-# 🚀 Quantum Circuit Cutting with HyPAQ
+# 🚀 Results for Quantum Circuit Cutting with HyPAQ
 
 This repository presents key results from applying the **HyPAQ (Hypergraphic Partitioning for Static and Adaptive Quantum Circuits)** methodology for **quantum circuit cutting**. HyPAQ enables large quantum circuits to be executed on smaller quantum hardware by partitioning the circuit into subcircuits using advanced **graph** and **hypergraph partitioning techniques**. 
 
