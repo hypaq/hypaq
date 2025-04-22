@@ -4,9 +4,6 @@
   <strong>HyPAQ</strong>
 </div>
 
-
----
-
 # HyPAQ - Hypergraph Partitioning for Static and Adaptive Quantum Circuits
 [![PyPI downloads](https://img.shields.io/pypi/dm/your-package-name?label=PyPI%20downloads)](https://pypi.org/project/hypaq/)
 [![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue)](https://stackoverflow.com/questions/tagged/hypaq)
