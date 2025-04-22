@@ -1,8 +1,7 @@
 <div align="center">
   <p align="center">
-    <img src="https://github.com/hypaq/hypaq/blob/main/images/hypaq.png" alt="hypaq">
+    <img src="https://github.com/hypaq/hypaq/blob/main/images/hypaq.png" alt="hypaq" width="40%">
   </p>
-  <br/>
   <strong>HyPAQ</strong>
 </div>
 
