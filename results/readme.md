@@ -1,3 +1,16 @@
+<div align="center">
+  <p align="center">
+    <img src="https://github.com/hypaq/hypaq/blob/main/images/hypaq.png" alt="hypaq" width="10%">
+  </p>
+  <strong>HyPAQ</strong>
+</div>
+
+# HyPAQ - Hypergraph Partitioning for Static and Adaptive Quantum Circuits
+[![PyPI downloads](https://img.shields.io/pypi/dm/your-package-name?label=PyPI%20downloads)](https://pypi.org/project/hypaq/)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue)](https://stackoverflow.com/questions/tagged/hypaq)
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FQCE57702.2023.00055-blue)](https://doi.org/10.48550/arXiv.2504.09318)
+[![Contribute](https://img.shields.io/badge/Contribute-Good%20First%20Issue-brightgreen)](https://github.com/hypaq/hypaq/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
 # 🚀 Results for Quantum Circuit Cutting with HyPAQ
 
 This repository presents key results from applying the **HyPAQ (Hypergraphic Partitioning for Static and Adaptive Quantum Circuits)** methodology for **quantum circuit cutting**. HyPAQ enables large quantum circuits to be executed on smaller quantum hardware by partitioning the circuit into subcircuits using advanced **graph** and **hypergraph partitioning techniques**. 
