@@ -6,7 +6,9 @@ This section introduces key concepts in **quantum circuit cutting** using **hype
 
 ### 🖼️ [Figure 1: Graph vs. Hypergraph Representations](https://github.com/hypaq/hypaq/blob/main/images/fig1.png)
 
-![Graph vs. Hypergraph](https://github.com/hypaq/hypaq/blob/main/images/fig1.png)
+<p align="center">
+  <img src="https://github.com/hypaq/hypaq/blob/main/images/fig1.png" alt="Graph vs. Hypergraph" width="70%">
+</p>
 
 This figure compares **graphs** and **hypergraphs** for modeling quantum circuits:
 - **Graph (left)**: Represents **binary relationships** between qubits (e.g., a CX gate between `q2` and `q5`).
