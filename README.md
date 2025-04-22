@@ -1,18 +1,61 @@
 # HyPAQ - Hypergraph Partitioning for Static and Adaptive Quantum Circuits
 
+# 🚀 Project Name
+
+![GitHub License](https://img.shields.io/github/license/yourusername/projectname)
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/projectname)
+![GitHub Issues](https://img.shields.io/github/issues/yourusername/projectname)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/yourusername/projectname)
+
+## 📝 Description
+
+The **HYPAQ** project (Hypergraphic Partitioning Approach for Quantum circuits) is a research-driven initiative aimed at addressing key scalability and efficiency challenges in distributed quantum computing. At its core, HYPAQ focuses on the development of advanced partitioning strategies for both static and adaptive quantum circuits by leveraging hypergraph-based representations. These representations enable a more precise modeling of quantum gate dependencies and classical control operations, which are particularly complex in adaptive circuits. The main goal of HYPAQ is to optimize the distribution of quantum computations across multiple Quantum Processing Units (QPUs), reducing inter-QPU communication costs and enhancing overall computational performance. By introducing standardized benchmarks and heuristics tailored for multi-QPU systems, HYPAQ provides a foundational framework for evaluating and improving partitioning techniques—ultimately facilitating more scalable, efficient, and flexible quantum algorithm execution in the era of noisy intermediate-scale quantum (NISQ) devices.
+
+---
+
+## 📚 Table of Contents
+
+- [Documentation](#-documentation)
+- [Installation](#-installation)
+- [Usage Examples](#-usage-examples)
+- [Publications](#-publications)
+- [License](#-license)
+- [References](#-references)
+- [About Us](#-about-us)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
+
+---
+
+## 📖 Documentation
+
+Full documentation is available [here](https://yourprojectdocslink.com).
+
+You can find:
+
+- API Reference
+- User Guide
+- Tutorials
+- FAQs
+
+---
+
+## 💾 Installation
+
+### Prerequisites
+
+- [List dependencies: Python, Node.js, Docker, etc.]
+
+### Steps
+
+```bash
+git clone https://github.com/yourusername/projectname.git
+cd projectname
+# Add installation steps here (e.g., pip install -r requirements.txt)
+
+
+
 ## Introduction
-
-Quantum computing stands at the forefront of technological innovation, promising to revolutionize fields ranging from cryptography to material science by leveraging the unique properties of quantum mechanics. Central to the advancement of quantum computing is the development of efficient and scalable quantum circuits, which serve as the fundamental building blocks for quantum algorithms. Traditional static quantum circuits, while powerful, often face limitations in flexibility and efficiency, particularly as the complexity of quantum algorithms increases.
-
-With the advancement of quantum computing, scaling algorithms to multiple Quantum Processing Units (QPUs) is essential to overcoming the limitations of current noisy intermediate-scale quantum (NISQ) devices. However, significant challenges remain, such as the high communication cost between QPUs and the need for more efficient architectures to manage both static and adaptive circuits. Addressing these challenges is crucial for improving the scalability and performance of quantum computations in distributed systems.
-
-In recent years, adaptive quantum circuits have emerged as a compelling alternative to static circuits. Unlike their static counterparts, adaptive circuits possess the ability to dynamically adjust their structure and parameters in real-time based on intermediate measurement outcomes. This adaptability enhances both the flexibility and efficiency of quantum computations, enabling more responsive and optimized processing of quantum information. However, the dynamic nature of adaptive circuits introduces significant challenges in their design, optimization, and partitioning, necessitating novel approaches to effectively manage their complexity.
-
-A critical aspect of optimizing quantum circuits, whether static or adaptive, is the partitioning of qubits and gates to minimize resource usage and maximize performance. Traditional partitioning techniques often fall short when applied to adaptive circuits due to their inherent dynamism and the intricate dependencies introduced by intermediate measurements. To address this, hypergraph representations have been proposed as a robust framework for modeling adaptive quantum circuits. In this representation, groups of quantum gates are encapsulated as hyperedges, allowing for a more nuanced depiction of gate interactions and dependencies. This extended hypergraph not only captures the structural intricacies of adaptive circuits but also integrates constraints that are pivotal during the partitioning process, ensuring that groups of ports associated with classical operations are preserved.
-
-Recognizing the need for standardized benchmarks to evaluate and advance partitioning techniques for both static and adaptive quantum circuits, this paper introduces HYPAQ (Hypergraphic Partitioning Approach for Quantum circuits). HYPAQ is specifically designed for distributed quantum computing environments, where algorithms are scaled across multiple QPUs. By leveraging hypergraph representations, HYPAQ employs advanced partitioning heuristics to optimize the distribution of quantum circuits, thereby minimizing communication costs and enhancing computational efficiency in multi-QPU systems.
-
-To facilitate the evaluation of HYPAQ, we present a comprehensive dataset of benchmark quantum circuits. This dataset is meticulously curated to encompass a diverse array of quantum algorithms and configurations, tailored to assess both static and adaptive circuit approaches. By providing this dataset, we aim to offer the research community a valuable resource that facilitates the comparative analysis of different partitioning heuristics and optimization strategies. The availability of such standardized benchmarks is essential for driving forward the development of more efficient and effective quantum circuit methodologies.
 
 HYPAQ introduces several key strategies based on hypergraph representations:
 
